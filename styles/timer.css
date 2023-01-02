@@ -1,0 +1,39 @@
+#timer{
+    display: flex;
+    width: 95%;
+    gap:1rem;
+  
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .team-content a{
+    text-decoration: none;
+  }
+   .timer-comp{
+    width: 21%;
+    height: 4rem;
+    border-radius:5px ;
+  text-align: center;
+  color: #fff;
+  font-size: .9rem;
+  padding: 1rem 0;
+  font-size: large;
+  font-weight:500;
+  font-style: roboto;
+  list-style: none;
+  background: rgb(0, 0, 0);
+  } 
+  @media (max-width:700px) {
+    #timer{
+        justify-content: space-between;
+        
+    
+      }
+      .timer-comp{
+        height: auto;
+        font-size: .7rem;
+       
+        margin:auto;
+      }
+  }
